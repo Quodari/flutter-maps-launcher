@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df7ca25-9629-40b7-a2ea-5fc01ca36e54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/maps_launcher.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/maps_launcher.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps_launcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maps_launcher.iml" afterDir="false" />
+    <list default="true" id="9df7ca25-9629-40b7-a2ea-5fc01ca36e54" name="Default Changelist" comment="add zoom factor parameter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,14 @@
       <option name="presentableId" value="Default" />
       <updated>1688082444789</updated>
     </task>
+    <task id="LOCAL-00001" summary="add zoom factor parameter">
+      <created>1688083180059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688083180059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -55,5 +61,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add zoom factor parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add zoom factor parameter" />
   </component>
 </project>

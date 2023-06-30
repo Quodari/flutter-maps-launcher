@@ -28,7 +28,7 @@ class MapsLauncher {
 
   /// Returns a [Uri] that can be launched on the current platform
   /// to open a maps application showing coordinates ([latitude] and [longitude]).
-  static Uri createCoordinatesUri(double latitude, double longitude, double zoom,
+  static Uri createCoordinatesUri(double latitude, double longitude, zoom,
       [String? label]) {
     Uri uri;
 
@@ -69,7 +69,7 @@ class MapsLauncher {
   /// The maps application will show the specified coordinates.
   /// Returns a Future that resolves to true if the maps application
   /// was launched successfully, false otherwise.
-  static Future<bool> launchCoordinates(double latitude, double longitude, double zoom,
+  static Future<bool> launchCoordinates(double latitude, double longitude, zoom,
       [String? label]) {
     return launchUrl(createCoordinatesUri(latitude, longitude, zoom, label));
   }
